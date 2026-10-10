@@ -1,0 +1,28 @@
+{
+  "id": "model-hint",
+  "name": {
+    "zh-CN": "模型提示 Model Hint",
+    "en-US": "Model Hint"
+  },
+  "version": "1.0.0",
+  "type": "frontend",
+  "description": {
+    "zh-CN": "在每条 AI 回复的页脚显示本次使用的模型 (provider:model)，并为不同模型分配不同的马卡龙色，一眼看出对话中途是否切换了模型。",
+    "en-US": "Shows the model (provider:model) used for each AI reply as a footer badge, with a distinct macaron color per model so model switches mid-chat are obvious at a glance."
+  },
+  "author": "QwenPaw QA Agent",
+  "entry": {
+    "frontend": "dist/index.js"
+  },
+  "permissions": [],
+  "config_schema": {},
+  "qwenpaw_version": {
+    "min": "2.0.0"
+  },
+  "meta": {
+    "homepage": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
+    "repository": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
+    "keywords": ["model", "badge", "chat", "ui", "frontend"],
+    "license": "MIT"
+  }
+}
