@@ -22,7 +22,14 @@
   "meta": {
     "homepage": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
     "repository": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
-    "keywords": ["model", "badge", "chat", "ui", "frontend", "macaron"],
-    "license": "MIT"
+    "keywords": [
+      "model",
+      "badge",
+      "chat",
+      "ui",
+      "frontend",
+      "macaron"
+    ],
+    "license": "Apache-2.0"
   }
 }
