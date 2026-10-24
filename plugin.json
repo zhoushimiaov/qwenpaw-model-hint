@@ -6,10 +6,7 @@
   },
   "version": "1.0.0",
   "type": "frontend",
-  "description": {
-    "zh-CN": "在每条 AI 回复的页脚显示本次实际使用的模型（provider:model），并为不同模型分配不同的马卡龙色——同一模型始终同色，一段对话中中途切换模型一眼可见。纯前端扩展，不修改任何核心代码。",
-    "en-US": "Shows the model (provider:model) actually used for each AI reply as a footer badge, with a distinct macaron color per model — the same model always keeps the same color, so a model switch mid-chat is immediately visible. Pure frontend extension, no core code changes."
-  },
+  "description": "「Model Hint（模型提示）」在每条 AI 回复的页脚显示本次回复实际使用的模型（provider:model），并为每个模型分配固定的马卡龙色标签：同一模型始终同色，一段对话中途切换了模型一眼就能看出来。纯前端扩展，不修改任何 QwenPaw 核心代码。\n\n安装后无需配置，正常对话即可在回复下方看到彩色模型标签，悬停可查看完整的 provider 与模型名。标签颜色由 provider:model 做稳定哈希映射到 10 色马卡龙调色板；若模型名带版本号，不同版本会显示不同颜色。标签字体为 Montserrat（需能访问 Google Fonts，离线时自动回退系统无衬线字体）。\n\n适合配置了多模型路由、自动降级或经常手动切换模型的用户，用来确认每条回复究竟由哪个模型生成。\n\nEnglish: Shows the model (provider:model) actually used for each AI reply as a footer badge, with a distinct macaron color per model — the same model always keeps the same color, so a model switch mid-chat is immediately visible. Pure frontend extension, no core code changes.",
   "author": "zhoushimiaov",
   "entry": {
     "frontend": "dist/index.js"
@@ -31,5 +28,9 @@
       "macaron"
     ],
     "license": "Apache-2.0"
+  },
+  "description_i18n": {
+    "zh-CN": "「Model Hint（模型提示）」在每条 AI 回复的页脚显示本次回复实际使用的模型（provider:model），并为每个模型分配固定的马卡龙色标签：同一模型始终同色，一段对话中途切换了模型一眼就能看出来。纯前端扩展，不修改任何 QwenPaw 核心代码。 安装后无需配置，正常对话即可在回复下方看到彩色模型标签，悬停可查看完整的 provider 与模型名。标签颜色由 provider:model 做稳定哈希映射到 10 色马卡龙调色板；若模型名带版本号，不同版本会显示不同颜色。标签字体为 Montserrat（需能访问 Google Fonts，离线时自动回退系统无衬线字体）。 适合配置了多模型路由、自动降级或经常手动切换模型的用户，用来确认每条回复究竟由哪个模型生成。",
+    "en-US": "Shows the model (provider:model) actually used for each AI reply as a footer badge, with a distinct macaron color per model — the same model always keeps the same color, so a model switch mid-chat is immediately visible. Pure frontend extension, no core code changes."
   }
 }

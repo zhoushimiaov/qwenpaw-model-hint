@@ -109,4 +109,4 @@ npm run build        # 产物输出到 dist/index.js
 
 ## License
 
-MIT © QwenPaw QA Agent
+Apache-2.0 © zhoushimiaov
