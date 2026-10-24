@@ -7,10 +7,10 @@
   "version": "1.0.0",
   "type": "frontend",
   "description": {
-    "zh-CN": "在每条 AI 回复的页脚显示本次使用的模型 (provider:model)，并为不同模型分配不同的马卡龙色，一眼看出对话中途是否切换了模型。",
-    "en-US": "Shows the model (provider:model) used for each AI reply as a footer badge, with a distinct macaron color per model so model switches mid-chat are obvious at a glance."
+    "zh-CN": "在每条 AI 回复的页脚显示本次实际使用的模型（provider:model），并为不同模型分配不同的马卡龙色——同一模型始终同色，一段对话中中途切换模型一眼可见。纯前端扩展，不修改任何核心代码。",
+    "en-US": "Shows the model (provider:model) actually used for each AI reply as a footer badge, with a distinct macaron color per model — the same model always keeps the same color, so a model switch mid-chat is immediately visible. Pure frontend extension, no core code changes."
   },
-  "author": "QwenPaw QA Agent",
+  "author": "zhoushimiaov",
   "entry": {
     "frontend": "dist/index.js"
   },
@@ -22,7 +22,7 @@
   "meta": {
     "homepage": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
     "repository": "https://github.com/zhoushimiaov/qwenpaw-model-hint",
-    "keywords": ["model", "badge", "chat", "ui", "frontend"],
+    "keywords": ["model", "badge", "chat", "ui", "frontend", "macaron"],
     "license": "MIT"
   }
 }
